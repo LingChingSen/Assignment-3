@@ -1,0 +1,18 @@
+package airplanegui2;
+
+/**
+ *
+ * @author user
+ */
+public class Airplane {       
+    String planename, paymentmethod ;
+    double planeprice;
+
+    Airplane(String pn, double pp, String pm) {
+        this.planename = pn;
+        this.paymentmethod = pm;
+        this.planeprice = pp;
+    }
+     
+    }
+    
